@@ -1,0 +1,46 @@
+/*
+#teaching table thead { display: none; }
+#teaching h2 { float: left; }
+#teaching .right { float: right; }
+
+#comments {
+    padding: 0 !important;
+}
+
+.universal-wrapper {
+    padding-top: 20px !important;
+}
+
+html {
+  font-size: 13px!important;
+}
+
+@media screen and (min-width: 58em) {
+  html {
+    font-size: 14px!important;
+  }
+}
+
+p {
+  margin-top: 0.7rem!important;
+}
+
+li.publication {
+  list-style: none;
+}
+*/
+
+p {
+  text-align: justify;
+}
+
+blockquote footer {
+  margin: 0;
+  padding: 0;
+}
+
+.footnotes hr {
+  margin: 20px 0px !important;
+  background: #d6d6d6 !important;
+  background-image: none !important;
+}
