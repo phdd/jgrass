@@ -108,7 +108,7 @@ enableGitInfo = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = true
+  math = true 
 
   googleSiteVerification = "V5yogdYXT4tjT5pIfzWGxkl8mYB65cMu5aQsq5eJDss"
   # Highlight.js options
