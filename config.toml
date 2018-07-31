@@ -164,13 +164,13 @@ enableGitInfo = false
   #   translated.
   publication_types = [
     'Uncategorized',  # 0
-    'Conference proceedings',  # 1
-    'Journal',  # 2
+    'Conference Proceedings Paper',  # 1
+    'Journal Article',  # 2
     'Work in progress',  # 3
-    'Technical report',  # 4
+    'Technical Report',  # 4
     'Book',  # 5
-    'Book chapter',  # 6
-    'Workshop', # 7
+    'Book Chapter',  # 6
+    'Workshop Submission', # 7
     'Thesis' # 8
   ]
 
@@ -255,10 +255,10 @@ enableGitInfo = false
   url = "#about"
   weight = 1
 
-#[[menu.main]]
-#  name = "Publications"
-#  url = "#publications_selected"
-#  weight = 2
+[[menu.main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 2
 
 #[[menu.main]]
 #  name = "Posts"

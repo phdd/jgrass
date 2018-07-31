@@ -10,9 +10,9 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "**Sports**: Freeletics, bike tours & Kanga training with my daughter",
-    "**Zoology**: visiting zoos & aquariums around the world",
-    "**Diving** in the red sea & iceland's salfra column"
+    "**Sports** -- Freeletics, bike tours & Kanga training with my daughter",
+    "**Zoology** -- visiting zoos & aquariums around the world",
+    "**Diving** -- Safaris in the red sea & iceland's salfra column"
   ]
 
 # List your qualifications (such as academic degrees).
