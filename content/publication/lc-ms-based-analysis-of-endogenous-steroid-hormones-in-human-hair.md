@@ -1,6 +1,6 @@
 +++
 abstract = "The quantification of endogenous steroid hormone concentrations in hair is increasingly used as a method for obtaining retrospective information on long-term integrated hormone exposure. Several different analytical procedures have been employed for hair steroid analysis, with liquid chromatography-mass spectrometry (LC-MS) being recognized as a particularly powerful analytical tool. Several methodological aspects affect the performance of LC-MS systems for hair steroid analysis, including sample preparation and pretreatment, steroid extraction, post-incubation purification, LC methodology, ionization techniques and MS specifications. Here, we critically review the differential value of such protocol variants for hair steroid hormones analysis, focusing on both analytical quality and practical feasibility issues. Our results show that, when methodological challenges are adequately addressed, LC-MS protocols can not only yield excellent sensitivity and specificity but are also characterized by relatively simple sample processing and short run times. This makes LC-MS based hair steroid protocols particularly suitable as a high-quality option for routine application in research contexts requiring the processing of larger numbers of samples."
-authors = ["W. Gao", "C. Kirschbaum", "**J. Grass**", "T. Stalder"]
+authors = ["W. Gao", "C. Kirschbaum", "J. Grass", "T. Stalder"]
 date = "2016-09-01"
 image_preview = ""
 image = ""
