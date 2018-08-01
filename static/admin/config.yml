@@ -17,11 +17,11 @@ collections:
       - {label: "Managed Content", name: "managed_content", widget: "hidden", default: true}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Abstract", name: "abstract", widget: "text"}
-      - {label: "Authors", name: "authors", widget: "list", default: ["J. Grass"]}
+      - {label: "Authors (comma separated)", name: "authors", widget: "list", default: ["J. Grass"]}
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Publication", name: "publication", widget: "string", default: ""}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Publication Types", name: "publication_types", widget: "list"}
       - {label: "Selected", name: "selected", widget: "boolean", "default": true}
       - {label: "Math", name: "math", widget: "hidden", "default": true}
-      - {label: "Schema", name: "schema_type", widget: "hidden", default: "Article"}
+      - {label: "Schema Type", name: "schema_type", widget: "hidden", default: "Article"}
