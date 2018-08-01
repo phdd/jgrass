@@ -5,7 +5,8 @@ authors:
   - J. Grass
 date: '2018-08-01'
 publication: asdf
-publication_types: []
+publication_types:
+  - '': '1'
 draft: true
 selected: false
 url_custom:
