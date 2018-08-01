@@ -21,4 +21,5 @@ url_video = ""
 name = "DOI"
 url = "https://doi.org/10.1093/conphys/cow034"
 
+managed_content = true
 +++

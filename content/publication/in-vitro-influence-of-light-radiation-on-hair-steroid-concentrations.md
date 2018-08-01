@@ -21,4 +21,5 @@ url_video = ""
 name = "DOI"
 url = "https://doi.org/10.1016/j.psyneuen.2016.07.221"
 
+managed_content = true
 +++

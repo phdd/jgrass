@@ -21,4 +21,5 @@ url_video = ""
 name = "DOI"
 url = "https://doi.org/10.1016/j.jsbmb.2015.12.022"
 
+managed_content = true
 +++

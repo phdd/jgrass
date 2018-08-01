@@ -24,4 +24,5 @@ url_custom:
   - name: SLUB Dresden
     url: https://katalogbeta.slub-dresden.de/id/0019114597/
 
+managed_content: true
 ---
