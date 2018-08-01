@@ -24,6 +24,20 @@ collections:
       - {label: "This is a Draft", name: "draft", widget: "boolean", "default": true}
       - {label: "Highlight", name: "selected", widget: "boolean", "default": false}
       
-      - {label: "Math", name: "math", widget: "hidden", "default": true}
+      - {label: "URL to Code", name: "url_code", widget: "string", required: false}
+      - {label: "URL to Data", name: "url_data", widget: "string", required: false}
+      - {label: "URL to PDF", name: "url_pdf", widget: "string", required: false}
+      - {label: "URL to Project", name: "url_project", widget: "string", required: false}
+      - {label: "URL to Slides", name: "url_slides", widget: "string", required: false}
+      - {label: "URL to Video", name: "url_video", widget: "string", required: false}
+      
+      - label: Other Links
+        name: url_custom
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string, default: "DOI"}
+          - {label: URL, name: url, widget: string, default: "https://doi.org/PUBLICATION_DOI"}
+      
       - {label: "Managed Content", name: "managed_content", widget: "hidden", default: true}
+      - {label: "Math", name: "math", widget: "hidden", "default": true}
       - {label: "Schema Type", name: "schema_type", widget: "hidden", default: "Article"}
