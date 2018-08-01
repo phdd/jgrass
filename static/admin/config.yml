@@ -16,27 +16,14 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Abstract", name: "abstract", widget: "text"}
-      - {label: "Authors (comma separated)", name: "authors", widget: "list", default: ["J. Grass"]}
+      - {label: "comma separated Authors", name: "authors", widget: "list", default: ["J. Grass"]}
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Publish Medium", name: "publication", widget: "string", default: ""}
       
-      - label: "Publication Types"
+      - label: "comma separated Publication Type Numbers – Uncategorized (0), Conference Proceedings Paper (1), Journal Article (2), Work in progress (3), Technical Report (4), Book (5), Book Chapter (6), Workshop Submission (7), Thesis (8)"
         name: "publication_types"
         widget: list
-        fields:
-          - label: type
-            name: ""
-            widget: "select"
-            options:
-              - {label: 'Uncategorized', value: 0 } # 0
-              - {label: 'Conference Proceedings Paper', value: 1 } # 1
-              - {label: 'Journal Article', value: 2 } # 2
-              - {label: 'Work in progress', value: 3 } # 3
-              - {label: 'Technical Report', value: 4 } # 4
-              - {label: 'Book', value: 5 } # 5
-              - {label: 'Book Chapter', value: 6 } # 6
-              - {label: 'Workshop Submission', value: 7 } # 7
-              - {label: 'Thesis', value: 8 }  # 8
+        default: ["0"]
       
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "This is a Draft", name: "draft", widget: "boolean", "default": true}
