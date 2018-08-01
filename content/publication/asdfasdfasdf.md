@@ -6,7 +6,6 @@ authors:
 date: '2018-08-01'
 publication: asdf
 publication_types:
-  - undefined: CDG
   - undefined: ORD
 draft: true
 selected: false
