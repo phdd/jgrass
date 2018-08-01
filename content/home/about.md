@@ -1,37 +1,29 @@
-+++
-# About/Biography widget.
-widget = "about"
-active = true
-date = 2016-04-20T00:00:00
+---
+widget: about
+active: true
+weight: 5
 
-# Order that this section will appear in.
-weight = 5
+date: '2016-04-20'
 
-# List your academic interests.
-[interests]
-  interests = [
-    "**Sports** -- Freeletics, bike tours & Kanga training with my daughter",
-    "**Zoology** -- visiting zoos & aquariums around the world",
-    "**Diving** -- Safaris in the red sea & iceland's salfra column"
-  ]
+interests:
+  interests:
+    - '**Sports** -- Freeletics, bike tours & Kanga training with my daughter'
+    - '**Zoology** -- visiting zoos & aquariums around the world'
+    - '**Diving** -- Safaris in the red sea & iceland''s salfra column'
 
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "Biological Psychology, Dr. rer. nat."
-  institution = "Technische Universität Dresden"
-  year = 2017
+education:
+  courses:
+    - course: 'Biological Psychology, Dr. rer. nat.'
+      institution: Technische Universität Dresden
+      year: 2017
+    - course: 'Biology, M.Sc.'
+      institution: Technische Universität Dresden
+      year: 2011
+    - course: 'Molecular Biotechnology, B.Sc.'
+      institution: Technische Universität Dresden
+      year: 2009
 
-[[education.courses]]
-  course = "Biology, M.Sc."
-  institution = "Technische Universität Dresden"
-  year = 2011
-
-[[education.courses]]
-  course = "Molecular Biotechnology, B.Sc."
-  institution = "Technische Universität Dresden"
-  year = 2009
- 
-+++
+---
 
 # Biography
 
