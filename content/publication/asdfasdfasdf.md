@@ -6,7 +6,7 @@ authors:
 date: '2018-08-01'
 publication: asdf
 publication_types:
-  - Type: '1'
+  - '0'
 draft: true
 selected: false
 url_custom:
