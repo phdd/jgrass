@@ -6,7 +6,7 @@ authors:
 date: '2018-08-01'
 publication: asdf
 publication_types:
-  - '': '1'
+  - '': '3 # Work in progress'
 draft: true
 selected: false
 url_custom:
