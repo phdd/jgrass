@@ -25,12 +25,18 @@ collections:
         widget: list
         fields:
           - label: type
-            name: Type
+            name: ""
             widget: "select"
             options:
-              - { label: "Chicago", value: "ORD" }
-              - { label: "Paris", value: "CDG" }
-              - { label: "Tokyo", value: "HND" }
+              - {label: 'Uncategorized', value: 0 } # 0
+              - {label: 'Conference Proceedings Paper', value: 1 } # 1
+              - {label: 'Journal Article', value: 2 } # 2
+              - {label: 'Work in progress', value: 3 } # 3
+              - {label: 'Technical Report', value: 4 } # 4
+              - {label: 'Book', value: 5 } # 5
+              - {label: 'Book Chapter', value: 6 } # 6
+              - {label: 'Workshop Submission', value: 7 } # 7
+              - {label: 'Thesis', value: 8 }  # 8
       
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "This is a Draft", name: "draft", widget: "boolean", "default": true}
