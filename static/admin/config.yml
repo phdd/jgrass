@@ -8,6 +8,8 @@ collections:
   - name: "publications" # Used in routes, e.g., /admin/collections/blog
     label: "Publications" # Used in the UI
     folder: "content/publication" # The path to the folder where the documents are stored
+    editor:
+      preview: false
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     filter: 
@@ -47,3 +49,29 @@ collections:
       - {label: "Managed Content", name: "managed_content", widget: "hidden", default: true}
       - {label: "Math", name: "math", widget: "hidden", "default": true}
       - {label: "Schema Type", name: "schema_type", widget: "hidden", default: "Article"}
+
+  - label: "Home"
+    name: "home"
+    editor:
+      preview: false
+    files:
+      - label: "About"
+        name: "about"
+        file: "content/home/about.md"
+        fields:
+          - {label: "Content", name: "body", widget: "markdown"}
+          # - label: Personal
+          #   name: interests
+          #   widget: object
+          #   fields:
+          #     - label: Interests
+          #       name: interests
+          #       widget: list
+                # fields:
+                #   - label: Description
+                #     name: description
+                #     widget: markdown
+                # 
+          
+          
+          

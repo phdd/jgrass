@@ -7,9 +7,9 @@ date: '2016-04-20'
 
 interests:
   interests:
-    - '**Sports** -- Freeletics, bike tours & Kanga training with my daughter'
-    - '**Zoology** -- visiting zoos & aquariums around the world'
-    - '**Diving** -- Safaris in the red sea & iceland''s salfra column'
+    - description: '**Sports** -- Freeletics, bike tours & Kanga training with my daughter'
+    - description: '**Zoology** -- visiting zoos & aquariums around the world'
+    - description: '**Diving** -- Safaris in the red sea & iceland''s salfra column'
 
 education:
   courses:
