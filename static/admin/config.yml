@@ -5,11 +5,27 @@ media_folder: "static/img"
 public_folder: "/img"
 
 collections:
-  - label: "Home"
-    name: "home"
+  - label: "General"
+    name: "general"
     editor:
       preview: false
     files:
+      - label: Settings
+        name: settings
+        file: user-config.toml
+        fields:
+          - {label: "Website Title", name: "title", widget: "string"}
+          - {label: "Copyright", name: "copyright", widget: "string"}
+          - label: Parameters
+            name: params
+            widget: object
+            fields:
+              - label: "Color Theme"
+                name: color_theme
+                widget: list
+                options: ["default", "ocean", "forest", "coffee", "dark", or "1950s"]
+                allow_add: false
+      
       - label: "About"
         name: "about"
         file: "content/home/about.md"

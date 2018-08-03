@@ -1,0 +1,32 @@
+title = "Juliane Graß"
+copyright = "&copy; 2018 Juliane Graß"
+
+[params]
+
+  # Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
+  color_theme = "default"
+
+  # Choose from `default`, `classic`, or `playfair`.
+  font = "default"
+
+  name = "Juliane Graß"
+  role = "Molecular Biologist"
+  organizations = [ { name = "TU Dresden", url = "https://tu-dresden.de" } ]
+
+  email = "info@julianegrass.de"
+  address = "Dresden, Germany"
+  office_hours = ""
+  phone = ""
+  skype = ""
+  telegram = ""
+
+  [[params.social]]
+    icon = "xing"
+    icon_pack = "fa"
+    link = "https://www.xing.com/profile/Juliane_Grass3"
+
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
+    link = "https://www.researchgate.net/profile/Juliane_Grass"
+
