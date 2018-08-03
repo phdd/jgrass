@@ -5,6 +5,38 @@ media_folder: "static/img"
 public_folder: "/img"
 
 collections:
+  - label: "Home"
+    name: "home"
+    editor:
+      preview: false
+    files:
+      - label: "About"
+        name: "about"
+        file: "content/home/about.md"
+        fields:
+          - {label: "Content", name: "body", widget: "markdown"}
+          - label: Personal
+            name: personal
+            widget: object
+            fields:
+              - label: Interests
+                name: interests
+                widget: list
+                fields:
+                  - {label: Description, name: description, widget: string}
+              - label: Courses
+                name: courses
+                widget: list
+                fields:
+                  - {label: Name, name: course, widget: string}
+                  - {label: Institution, name: institution, widget: string}
+                  - {label: Year, name: year, widget: number, min: 1900, max: 2100}
+                  
+          - {label: "Widget Name", name: "widget", widget: "string", default: "about"}
+          - {label: "Is Active", name: "active", widget: "boolean", default: true}
+          - {label: "Weight", name: "weight", widget: "number", default: 5}
+          - {label: "Date", name: "date", widget: "date", default: "2016-04-20", format: "YYYY-MM-DD"}
+  
   - name: "publications" # Used in routes, e.g., /admin/collections/blog
     label: "Publications" # Used in the UI
     folder: "content/publication" # The path to the folder where the documents are stored
@@ -49,39 +81,3 @@ collections:
       - {label: "Managed Content", name: "managed_content", widget: "hidden", default: true}
       - {label: "Math", name: "math", widget: "hidden", "default": true}
       - {label: "Schema Type", name: "schema_type", widget: "hidden", default: "Article"}
-
-  - label: "Home"
-    name: "home"
-    editor:
-      preview: false
-    files:
-      - label: "About"
-        name: "about"
-        file: "content/home/about.md"
-        fields:
-          - {label: "widget", name: "widget", widget: "hidden", default: "about"}
-          - {label: "active", name: "active", widget: "hidden", default: true}
-          - {label: "weight", name: "weigth", widget: "hidden", default: 5}
-          - {label: "date", name: "date", widget: "hidden", default: "2016-04-20"}
-
-          - {label: "Content", name: "body", widget: "markdown"}
-          - label: Personal
-            name: personal
-            widget: object
-            fields:
-              - label: Interests
-                name: interests
-                widget: list
-                fields:
-                  - {label: Description, name: description, widget: string}
-              - label: Courses
-                name: courses
-                widget: list
-                fields:
-                  - {label: Name, name: course, widget: string}
-                  - {label: Institution, name: institution, widget: string}
-                  - {label: Year, name: year, widget: number, min: 1900, max: 2100}
-                
-          
-          
-          
