@@ -20,12 +20,41 @@ collections:
             name: params
             widget: object
             fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Role", name: "role", widget: "string"}
+
+              - label: Organizations
+                name: organizations
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Website, name: url, widget: string}
+              
+              - {label: "E-Mail", name: "email", widget: "string"}
+              - {label: "Address", name: "address", widget: "string"}
+              - {label: "Office Hours", name: "office_hours", widget: "string"}
+              - {label: "Phone", name: "phone", widget: "string"}
+              - {label: "Skype", name: "skype", widget: "string"}
+              - {label: "Telegram", name: "telegram", widget: "string"}
+              - {label: "Keybase Name", name: "keybase", widget: "string"}
+            
+              - label: "Social Links"
+                name: social
+                widget: list
+                fields: 
+                  - {label: Name, name: icon, widget: string}
+                  - {label: Icon Pack, name: icon_pack, widget: hidden, default: "fa"}
+                  - {label: Link, name: link, widget: string}
+            
               - label: "Color Theme"
                 name: color_theme
-                widget: list
-                options: ["default", "ocean", "forest", "coffee", "dark", or "1950s"]
-                allow_add: false
-      
+                widget: select
+                options: ["default", "ocean", "forest", "coffee", "dark", "1950s"]
+              - label: "Font"
+                name: font
+                widget: select
+                options: ["default", "classic", "playfair"]
+
       - label: "About"
         name: "about"
         file: "content/home/about.md"
