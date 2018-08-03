@@ -59,6 +59,11 @@ collections:
         name: "about"
         file: "content/home/about.md"
         fields:
+          - {label: "widget", name: "widget", widget: "hidden", default: "about"}
+          - {label: "active", name: "active", widget: "hidden", default: true}
+          - {label: "weight", name: "weigth", widget: "hidden", default: 5}
+          - {label: "date", name: "date", widget: "hidden", default: "2016-04-20"}
+
           - {label: "Content", name: "body", widget: "markdown"}
           - label: Personal
             name: personal
@@ -67,7 +72,8 @@ collections:
               - label: Interests
                 name: interests
                 widget: list
-                field: {label: Description, name: description, widget: string}
+                fields:
+                  - {label: Description, name: description, widget: string}
               - label: Courses
                 name: courses
                 widget: list
