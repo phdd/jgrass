@@ -1,7 +1,4 @@
 ---
-widget: about
-active: true
-date: '2016-04-20'
 personal:
   courses:
     - course: 'Biological Psychology, Dr. rer. nat.'
@@ -17,6 +14,10 @@ personal:
     - description: '**Sports** -- Freeletics, bike tours & Kanga training with my daughter'
     - description: '**Zoology** -- visiting zoos & aquariums around the world'
     - description: '**Diving** -- Safaris in the red sea & iceland''s salfra column'
+widget: about
+active: true
+weight: '5'
+date: '2016-04-20'
 ---
 # Biography
 
