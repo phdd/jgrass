@@ -57,7 +57,7 @@
 
     <div class="row">
 
-      {{ with $page.Params.interests }}
+      {{ with $page.Params.personal }}
       <div class="col-sm-5">
         <h3>{{ i18n "interests" | markdownify }}</h3>
         <ul class="ul-interests">
@@ -68,7 +68,7 @@
       </div>
       {{ end }}
 
-      {{ with $page.Params.education }}
+      {{ with $page.Params.personal }}
       <div class="col-sm-7">
         <h3>{{ i18n "education" | markdownify }}</h3>
         <ul class="ul-edu fa-ul">

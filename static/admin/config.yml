@@ -60,18 +60,22 @@ collections:
         file: "content/home/about.md"
         fields:
           - {label: "Content", name: "body", widget: "markdown"}
-          # - label: Personal
-          #   name: interests
-          #   widget: object
-          #   fields:
-          #     - label: Interests
-          #       name: interests
-          #       widget: list
-                # fields:
-                #   - label: Description
-                #     name: description
-                #     widget: markdown
-                # 
+          - label: Personal
+            name: personal
+            widget: object
+            fields:
+              - label: Interests
+                name: interests
+                widget: list
+                field: {label: Description, name: description, widget: string}
+              - label: Courses
+                name: courses
+                widget: list
+                fields:
+                  - {label: Name, name: course, widget: string}
+                  - {label: Institution, name: institution, widget: string}
+                  - {label: Year, name: year, widget: number, min: 1900, max: 2100}
+                
           
           
           

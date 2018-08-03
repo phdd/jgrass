@@ -5,13 +5,13 @@ weight: 5
 
 date: '2016-04-20'
 
-interests:
+personal:
+
   interests:
     - description: '**Sports** -- Freeletics, bike tours & Kanga training with my daughter'
     - description: '**Zoology** -- visiting zoos & aquariums around the world'
     - description: '**Diving** -- Safaris in the red sea & iceland''s salfra column'
 
-education:
   courses:
     - course: 'Biological Psychology, Dr. rer. nat.'
       institution: Technische Universität Dresden
