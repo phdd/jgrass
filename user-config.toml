@@ -20,13 +20,12 @@ copyright = "&copy; 2018 Juliane Graß"
   skype = ""
   telegram = ""
 
-  [[params.social]]
-    icon = "xing"
-    icon_pack = "fa"
-    link = "https://www.xing.com/profile/Juliane_Grass3"
+[[params.social]]
+  icon = "xing"
+  icon_pack = "fa"
+  link = "https://www.xing.com/profile/Juliane_Grass3"
 
-  [[params.social]]
-    icon = "researchgate"
-    icon_pack = "ai"
-    link = "https://www.researchgate.net/profile/Juliane_Grass"
-
+[[params.social]]
+  icon = "researchgate"
+  icon_pack = "ai"
+  link = "https://www.researchgate.net/profile/Juliane_Grass"
